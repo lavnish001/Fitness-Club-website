@@ -1,0 +1,278 @@
+body {
+    font-family: 'Comic Neue', cursive;
+    background-image: url("https://www.pac.fit/wp-content/uploads/2015/09/fitness-body-hd-wallpapers-of-high-quality.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+img {
+    width:100%;
+    height: 400px;
+}
+
+.middle1 {
+    align-content: center;
+    
+}
+
+.imagecust {
+    width: 100%;
+    height: 400px;
+}
+
+ul {
+    float: right;
+}
+
+.nav_item {
+    float: right;
+}
+
+
+.row {
+    margin: 20px;
+}
+
+.about {
+    text-align: center;
+    border: white 1px solid;
+    color: white;
+    margin: 10px;
+    border-radius: 2px;
+}
+
+#cards {
+    margin: 50px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 30px;
+  }
+  .container .thumbex {
+    margin: 10px 20px 30px;
+    width: 100%;
+    min-width: 250px;
+    max-width: 435px;
+    height: 600px;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    overflow: hidden;
+    border-radius: 5px;
+    outline-offset: -15px;
+    box-shadow: 5px 10px 40px 5px white;
+  }
+  .container .thumbex .thumbnail {
+    overflow: hidden;
+    min-width: 250px;
+    height: 300px;
+    position: relative;
+    opacity: 0.88;
+    backface-visibility: hidden;
+    transition: all 0.4s ease-out;
+  }
+  .container .thumbex .thumbnail img {
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    top: 50%;
+    height: 115%;
+    width: auto;
+    transform: translate(-50%, -50%);
+    backface-visibility: hidden;
+  }
+  .container .thumbex .thumbnail span {
+    position: absolute;
+    z-index: 2;
+    top: calc(150px - 20px);
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px 50px;
+    margin: 0 45px;
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    font-weight: 300;
+    font-family: "Raleway", sans-serif;
+    letter-spacing: 0.2px;
+    transition: all 0.3s ease-out;
+  }
+  .container .thumbex .thumbnail:hover {
+    backface-visibility: hidden;
+    transform: scale(1.15, 1.15);
+    opacity: 1;
+  }
+  .container .thumbex .thumbnail:hover span {
+    opacity: 0;
+  }
+
+  .cards{
+      color: white;
+  }
+
+  .upcoming {
+      text-align: center;
+      color: white;
+  }
+
+
+  .cards {
+      margin-top: 25px;
+      text-align: center;
+      padding: 10px;
+  }
+
+  hr {
+      margin-top: 10px;
+      color: black;
+  }
+
+  .aboutmid {
+      font-size: 1.2em;
+      color: white;
+  }
+
+  .aboutmidt {
+      font-size: 1.3em;
+      text-align: center;
+      color: white;
+  }
+
+  .bold {
+      font-size: 1.3em;
+      color: white;
+  }
+
+  footer {
+      text-align: center;
+      color: white;
+  }
+
+  .formmiddle {
+      text-align: center;
+      font-size: 1.5em;
+      margin-top: 55px;
+  }
+
+  .buttony{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background: lightblue;
+    width: 50%;
+    margin-top: 80px;
+    border-radius: 5px;
+    font-size: 2em;
+    
+    overflow: hidden;
+    color: #2196f3;
+    text-transform: uppercase;
+    display: inline-block;
+  }
+
+  .buttony:hover{
+      color: #255784;
+      background: #2196f3;
+      box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+  }
+
+  .registerc {
+      text-decoration: none;
+      color: black;
+  }
+
+  .registerc:hover {
+      text-decoration: none;
+  }
+  .bordrr{
+      border-radius: 10px;
+  }
+
+  .time{
+      text-align: center;
+      font-size: 2em;
+      color: rgb(102, 13, 13);
+  }
+  
+  .timetbl {
+      width: 1200px;
+      margin-left: 150px;
+  }
+
+  .timetble {
+      text-align: center;
+      font-size: 2.5em;
+      color: red;
+  }
+
+  .nutri {
+      text-align: center;
+      font-size: 3em;
+      color: white;
+  }
+
+  .nutriab {
+      text-align: center;
+      font-size: 1.3em;
+      color: white;
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+ 
+  .column {
+    flex: 50%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    height: 600px;
+  }
+
+  .gallery{
+      text-align: center;
+      font-size: 3em;
+      color: white;
+  }
+  
+  .text-center{
+      width: 50%;
+      margin-left: 380px;
+  }
+
+  .spacing {
+      padding: 10px;
+  }
+
+  .fa-facebook-square{
+      color: #415E9B;
+  }
+
+  .regwhite {
+      color: white;
+  }
+
+  .fa-twitter-square{
+      color: #1DA1F2;
+  }
+
+  .fa-instagram-square{
+      color: #D95D71;
+  }
